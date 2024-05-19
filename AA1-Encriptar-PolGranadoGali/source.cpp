@@ -3,21 +3,20 @@
 #include <string>
 
 #include "function_encript.h"
-#include "historialConversación.h"
+#include "enviarMensaje.h"
 
 
 void main() {
+    std::ifstream file("historial_msg.txt");
+    file.open("historial_msg.txt");
 
-	std::ifstream file;
-	file.open("encryptar.txt");
-    if (file.is_open()) {
-        std::cout << "Archivo encontrado" << std::endl;
-        
+    if (file.is_open()){
+
+        std::cout << "Archivo encontrado";
     }
     else {
+
         std::cout << "Creando archivo" << std::endl;
-        
+        enviarMensajes();
     }
-
-
 }

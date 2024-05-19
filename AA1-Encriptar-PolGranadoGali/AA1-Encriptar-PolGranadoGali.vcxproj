@@ -128,11 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="function_encript.h" />
-    <ClInclude Include="historialConversación.h" />
+    <ClInclude Include="enviarMensaje.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="function_encript.cpp" />
-    <ClCompile Include="hitorialConversación.cpp" />
+    <ClCompile Include="enviarMensajes.cpp" />
     <ClCompile Include="source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

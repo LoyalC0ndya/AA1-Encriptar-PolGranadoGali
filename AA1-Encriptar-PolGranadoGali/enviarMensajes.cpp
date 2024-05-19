@@ -13,7 +13,7 @@ void enviarMensajes() {
 	
 	//Arir el archivo
 	std::ofstream file;
-	file.open("encryptado.txt", std::ios::app);
+	file.open("historial_msg.txt", std::ios::app);
 
 	//Bucle que se dedica a escribir/enviar los mensajes
 	while (bucle == true)
