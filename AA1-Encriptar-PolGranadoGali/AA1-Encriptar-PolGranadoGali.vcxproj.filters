@@ -18,12 +18,18 @@
     <ClInclude Include="function_encript.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="historialConversación.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="function_encript.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="source.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="hitorialConversación.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
