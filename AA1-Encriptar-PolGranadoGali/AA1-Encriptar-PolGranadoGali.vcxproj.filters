@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="function_encript.h">
+    <ClInclude Include="enviarMensaje.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="enviarMensaje.h">
+    <ClInclude Include="recuperarConversación.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="function_encript.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
     <ClCompile Include="source.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="enviarMensajes.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="recuperarConversación.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
